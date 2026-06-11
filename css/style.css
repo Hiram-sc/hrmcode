@@ -8,7 +8,8 @@
     --color-whrite: #FFF;
     --gradient-accent: linear-gradient(90deg, #4F78AD 0%, #707070 100%);
     --font-body: "Inter", sans-serif;
-    --font-title: "Bricolage Grotesque", sans-serif;
+    --font-title: "Poppins", sans-serif;
+    --font-display: "Righteous", sans-serif;
 }
 
 /* Base */
@@ -24,7 +25,7 @@ body {
     padding: 0 20px;
 }
 
-h1, h2, h3, footer {
+h1, h2, h3 {
     font-family: var(--font-title);
     font-weight: 700;
 }
@@ -106,8 +107,9 @@ body, p, textarea {
 
 .nav-title {
     color: var(--color-primary);
-    font-family: var(--font-title);
+    font-family: var(--font-display);
     font-size: 30px;
+    font-weight: 500;
 }
 
 .nav {
@@ -161,7 +163,7 @@ body, p, textarea {
 
 .section-hero {
     background: linear-gradient(135deg, var(--color-bg-hero), var(--color-black));
-    padding: 160px 0;
+    padding: 140px 0;
 }
 
 .hero-wrapper {
@@ -183,6 +185,7 @@ body, p, textarea {
 .hero-title {
     color: var(--color-whrite);
     font-size: 40px;
+    line-height: 1.2;
 }
 
 .hero-text {
@@ -198,7 +201,7 @@ body, p, textarea {
 }
 
 .tag {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     color: var(--color-whrite);
     padding: 8px 10px;
@@ -258,7 +261,7 @@ body, p, textarea {
     gap: 30px;
     padding: 20px;
     max-width: 300px;
-    min-height: 240px;
+    min-height: 220px;
     background-color: var(--color-whrite);
     border: 1px solid rgba(24, 75, 130, 0.30);
     border-radius: 16px;
@@ -279,7 +282,8 @@ body, p, textarea {
 
 .title-cards {
     color: var(--color-primary);
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.2;
     margin-bottom: 0;
 }
 
@@ -430,6 +434,7 @@ body, p, textarea {
     display: inline-block;
     color: var(--color-black);
     font-size: 14px;
+    font-weight: 600;
     text-decoration: none;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
@@ -438,6 +443,39 @@ body, p, textarea {
 .projects-accent a:hover {
     color: var(--color-secondary);
     transform: translateY(-2px);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--color-black);
+    padding: 30px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-items {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-icon {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+
+.footer-icon:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-small {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
 }
 
 /* Banner Projects */
