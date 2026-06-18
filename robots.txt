@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hrmcode.com.br/sitemap.xml
