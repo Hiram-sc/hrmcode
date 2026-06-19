@@ -44,7 +44,7 @@
 
 <body id="inicio">
     <header>
-        <nav class="navbar-container">
+        <nav class="navbar-container" role="navigation">
             <div class="navbar-inner">
                 
                 <a class="nav-title-wrapper" href="/">
@@ -62,7 +62,7 @@
                         <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
                     </ul>
                 </div>
-            
+                
             </div>
         </nav>
     </header>
@@ -72,26 +72,70 @@
         <section class="section-hero">
             <div class="hero-wrapper container">
 
-                <div class="header-hero">
-                    <h1 class="hero-title">
-                        Desenvolvimento de <span class="text-highlight"> sites e sistemas </span> para negócios locais
-                    </h1>
-                    
-                    <p class="hero-text">
-                        Soluções simples e rápidas para negócios locais que precisam de presença digital e organização.
+                <div class="hero-content-container">
+                    <div class="header-hero">
+                        <h1 class="hero-title">
+                            Desenvolvimento de <span class="text-highlight"> sites e sistemas </span> para negócios locais
+                        </h1>
+                        
+                        <p class="hero-text">
+                            Soluções simples e rápidas para negócios locais que precisam de presença digital e organização.
+                        </p>
+                    </div>
+
+                    <p class="hero-note">
+                        Projetos personalizados para negócios diversos e profissionais autônomos.
                     </p>
                 </div>
 
-                <div class="hero-tags">
-                    <span class="tag">LANDING PAGES</span>
-                    <span class="tag">CRM</span>
-                    <span class="tag">SAAS</span>
-                    <span class="tag">DASHBOARDS</span>
-                </div>
+                <div class="result-card">
 
-                <p class="hero-note">
-                    Projetos personalizados para negócios diversos e profissionais autônomos.
-                </p>
+                    <div class="result-card-header">
+                        <img src="assets/favicon/icon-code.png" class="icon-code">
+                        
+                        <h3 class="title-result-card">
+                            Resultados
+                        </h3>
+
+                        <span class="emphasis"></span>
+                    </div>
+
+                    <div class="result-item active">
+                        <h3>Mais conversões</h3>
+                        <p>
+                            Experiências digitais criadas para transformar visitantes em clientes
+                        </p>
+                    </div>
+                    
+                    <div class="result-item">
+                        <h3>Mais organização</h3>
+                        <p>
+                            Sistemas e ferramentas para centralizar informações e melhorar processos
+                        </p>
+                    </div>
+                    
+                    <div class="result-item">
+                        <h3>Mais eficiência</h3>
+                        <p>
+                            Soluções digitais que automatizam tarefas e reduzem trabalhos manuais
+                        </p>
+                    </div>
+                    
+                    <div class="result-item">
+                        <h3>Mais presença</h3>
+                        <p>
+                            Sites estruturados para fortalecer a marca, melhorar a visibilidade e criar novas oportunidades
+                        </p>
+                    </div>
+                    
+                    <div class="result-indicators">
+                        <span class="indicator active"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                    </div>
+                
+                </div>
                 
             </div>
         </section>
@@ -142,11 +186,11 @@
 
                         <div class="card-content">
                             <p class="text-cards">
-                                Sistemas simples para organizar clientes, contatos e atendimentos.
+                                Sistemas para organizar clientes, contatos e atendimentos.
                             </p>
                             
                             <p class="text-cards">
-                                Ajuda negócios locais a manter controle e melhorar o atendimento.
+                                Ajuda negócios a centralizar informações e melhorar o relacionamento com clientes.
                             </p>
                         </div>
                     </div>
@@ -154,7 +198,7 @@
                     <div class="examples-card">
                         <div class="card-header">
                             <h3 class="title-cards">
-                                SaaS
+                                Aplicações Web
                             </h3>
                         </div>
 
@@ -164,7 +208,7 @@
                             </p>
                             
                             <p class="text-cards">
-                                Soluções escaláveis para automatizar processos de negócios.
+                                Soluções sob medida para gestão, automação e necessidades específicas de cada negócio.
                             </p>
                         </div>
                     </div>
@@ -178,11 +222,11 @@
 
                         <div class="card-content">
                             <p class="text-cards">
-                                Painéis visuais para análise de dados em tempo real.
+                                Painéis visuais para análise de dados e acompanhamento de métricas.
                             </p>
                             
                             <p class="text-cards">
-                                Ideal para acompanhar métricas e desempenho de negócios.
+                                Ideal para monitorar desempenho e apoiar decisões de negócio.
                             </p>
                         </div>
                     </div>
@@ -267,7 +311,12 @@
                 </div>
 
                 <div class="cta-accent">
-                    <a class="btn-cta">
+                    <a 
+                        href="https://wa.me/5522998452260?text=Olá,%20gostaria%20de%20conversar%20sobre%20projeto"
+                        class="btn-cta"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Entrar em contato
                     </a>
                 </div>
@@ -296,5 +345,6 @@
         </div>
     </footer>
 
+    <script src="scripts.js" defer></script>
 </body>
 </html>
