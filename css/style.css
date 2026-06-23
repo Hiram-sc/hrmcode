@@ -599,7 +599,7 @@ body, p, textarea {
     text-align: center;
     color: var(--color-white);
     background-color: var(--color-bg-hero);
-    padding: 8px 10px;
+    padding: 10px 12px;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.4s ease;
@@ -608,7 +608,6 @@ body, p, textarea {
 .btn-cta:hover {
     transform: translateY(-2px);
     background-color: rgb(33, 58, 83);
-    box-shadow: 0 0 10px var(--color-bg-hero);
 }
 
 /* Footer */
